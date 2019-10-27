@@ -1,0 +1,41 @@
+/*=======================================================================
+Copyright (c) 2019-2019 Jack Johannesen. https://insertdomain.name
+liscensed under the mit liscense.
+See GitHub for details. https://github.com/K4rakara/PortfolioSrc/blob/master/LICENSE
+=======================================================================*/
+#background {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    background-color: #2a2a34;
+}
+#container {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    background: transparent;
+}
+#comingsoon {
+    top: calc(50% - 1.5em);
+    left: 0;
+    width: auto;
+    height: 1em;
+    margin: 0;
+    padding: 2em;
+    border-radius: 1em;
+    position: fixed;
+    font-size: 32px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(0.25em);
+    -webkit-backdrop-filter: blur(0.25em);
+    transform-origin: 50% 50%;
+    transform: scale(0,0);
+}
